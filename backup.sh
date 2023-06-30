@@ -60,6 +60,8 @@ rm  *$threeday_ago*
 rm  *$fourday_ago*
 
 echo " Delete  over  $(date +%Y%m%d_%H:%M:%S) " >> $LOG_FILE 
+echo "Done "   >> $LOG_FILE
+
 
 EOF
 
